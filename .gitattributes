@@ -4,3 +4,7 @@
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
+
+# TextMesh Pro is "wrongly" taking up the majority of Github languages detection
+# Space in path needs to be escaped
+/Assets/TextMesh\ Pro/** -linguist-detectable
